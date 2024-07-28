@@ -1,4 +1,84 @@
-.darkmode {
-    background-color: black;
-    color: white;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1b0210;
+    background-image: url('https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4'); background-attachment: fixed; background-size: cover;background-repeat: no-repeat;
 }
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.myMessage {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #ffd900;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 1.2em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.darkmode {
+    background-color: #333;
+    color: #fff;
+    border-color: #444;
+}
+
+button {
+    background-color: #ff5100;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b0b300;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #c9df08;
+    border-radius: 5px;
+    margin: 10px;
+    width: calc(100% - 22px); 
+    box-sizing: border-box;
+}
+
+.fruits {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.fruits li {
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.container > * {
+    margin: 10px 0;
+}
+
